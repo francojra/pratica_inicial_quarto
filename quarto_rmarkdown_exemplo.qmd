@@ -15,19 +15,17 @@ When you click the **Render** button a document will be generated that includes:
 -   Content authored with markdown
 -   Output from executable *code*
 
+## Tabelas
+
 Tabela 1. Exemplo de tabela com Quarto.
 
-+-------+------+------+
 | Col1  | Col2 | Col3 |
-+=======+======+:====:+
-| sjtbg | 43   | 36   |
-+-------+------+------+
+|-------|------|:----:|
+| sjtbg | 43   |  36  |
 | nwtyb | 346  | 365  |
-+-------+------+------+
-| synyw | 36   | 35   |
-+-------+------+------+
+| synyw | 36   |  35  |
 
-## Renderização e códigos
+## Renderização de códigos
 
 When you click the **Render** `button` a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
 
@@ -38,3 +36,9 @@ When you click the **Render** `button` a presentation will be generated that inc
 ```{r echo=TRUE}
 3 + 4 
 ```
+
+## Figuras
+
+Figura 1. Exemplo de figura com Quarto.
+
+![Fonte:](thumbnail_huc2394eec6c3beee37cf037e067ab5abf_72127_2220x0_resize_q75_box.jpg){fig-alt="Figura 1. Exemplo de figura com Quarto." fig-align="center" width="500"}
